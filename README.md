@@ -6,13 +6,13 @@
 - Downloads random wallpapers from Unsplash using their API.
 - Allows custom search queries for specific themes (e.g., nature, city, space).
 - Automatically sets the downloaded image as the wallpaper.
-- Supports GNOME, KDE Plasma, XFCE, and lightweight window managers like `feh`.
-- Can be automated to run at system startup.
+- Supports GNOME, KDE Plasma, XFCE.
+- Can be automated using `crontab`.
 
 ## **Requirements**
 - **cURL**: For making HTTP requests to the Unsplash API.
 - **jq**: For parsing JSON responses from the API.
-- **gsettings**, **xfconf-query**, **qdbus**, or **feh** (depending on your desktop environment).
+- **gsettings**, **xfconf-query**, **qdbus** (depending on your desktop environment).
 
 ### **Dependencies (Installation)**
 
